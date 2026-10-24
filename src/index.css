@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0B0F19;
+    color: #F8FAFC;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  h1, h2, h3, h4, .font-arcade {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom Arcade Glows & Animations */
+.neon-glow-violet {
+  box-shadow: 0 0 25px -5px rgba(139, 92, 246, 0.45), 0 0 10px -2px rgba(139, 92, 246, 0.3);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.45), 0 0 10px -2px rgba(6, 182, 212, 0.3);
+}
+
+.neon-glow-amber {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.45), 0 0 10px -2px rgba(245, 158, 11, 0.3);
+}
+
+.neon-border-glow {
+  border-color: rgba(139, 92, 246, 0.5);
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.2);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

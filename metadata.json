@@ -1,0 +1,6 @@
+{
+  "name": "MindClash: Multiplayer Brain-Party Game",
+  "description": "A colorful, joyful online multiplayer party game testing 7 mind skills across memory, logic, focus, speed, creativity, and deduction with friends or solo time-attack.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
